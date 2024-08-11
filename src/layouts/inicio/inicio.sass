@@ -1,0 +1,52 @@
+#InicioContain
+  display: flex
+  justify-content: space-between
+  width: 98%
+  height: 100vh
+  margin: 0 auto
+  overflow: hidden
+  position: relative
+  .textContain
+    position: relative
+    width: 80%
+    display: flex
+    flex-direction: column
+    padding-top: 10%
+    gap: 1rem
+    p
+      font-size: 10rem
+      font-weight: bold
+      color: #fff
+      margin: 0
+    .texto2 
+      padding-left: 20%
+    button
+      padding: 2%
+      margin: 6% auto
+      border-radius: .5rem
+      border: none
+      width: 30%
+      font-size: 1.5rem      
+      &:hover
+        cursor: pointer
+        background: #363636
+        color: #fff
+
+  .imageContain
+    width: auto
+    display: flex
+    align-items: center
+    animation: vibrate 0.5s linear infinite
+
+
+@keyframes vibrate
+  0%
+    transform: translateX(0) translateY(0)
+  25%
+    transform: translateX(-2px) translateY(-2px)
+  50%
+    transform: translateX(2px) translateY(2px)
+  75%
+    transform: translateX(-2px) translateY(2px)
+  100%
+    transform: translateX(2px) translateY(-2px)
