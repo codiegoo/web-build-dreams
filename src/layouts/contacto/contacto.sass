@@ -1,4 +1,50 @@
 #ContactoContain
   width: 98%
-  height: 98vh
+  height: 60vh
   margin: 0 auto
+  display: flex
+  flex-direction: column
+  align-items: center
+  padding-top: 4%
+  h3
+    font-family: var(--font-inter)
+    color: #fff
+    font-size: 2.5rem
+    margin-bottom: 4%
+  form
+    width: 60%
+    gap: 1rem
+    display: flex
+    flex-direction: column
+    .dataInputContain
+      width: 100%
+      display: flex
+      flex-direction: row
+      justify-content: space-between
+      input
+        width: 48.5%
+        height: 3rem
+        font-size: 1.2rem
+        &::placeholder
+          color: #000
+    .ideaClient
+      width: 99.3%
+      height: 10rem
+      max-height: 10rem
+    .ideaClient::placeholder
+      font-family: var(--font-lato)
+      font-size: 1.2rem
+      color: #000
+  button
+    width: 20%
+    height: 4rem
+    margin-top: 4%
+    background: #8753ff
+    color: #fff
+    font-size: 1.5rem
+    font-weight: bold
+    border-radius: .5rem
+    border: none
+    &:hover
+      cursor: pointer
+      color: #000

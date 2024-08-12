@@ -40,7 +40,7 @@ export default function Inicio() {
       <div className="textContain">
         <p className="texto1">Despierta tu</p>
         <p className="texto2">vision digital</p>
-        <button>Conocenos🚀</button>
+        <button>Conocenos 🚀</button>
       </div>
       <div className="imageContain">
         <Image src="/images/cohete.png" width={600} height={600} alt="Imagen animada" />
