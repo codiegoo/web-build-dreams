@@ -1,4 +1,5 @@
 
+import Slider from '@/src/components/Slider/Slider'
 import './nosotros.sass'
 
 
@@ -18,14 +19,16 @@ export default function Nosotros() {
           </div>
         </div>
         <div className="cube2">
-          <p>Creando experiencias web <br /> que inspiran y conectan.</p>
+          <p>Creando experiencias web <br /> que inspiran y conectan 🚀</p>
         </div>
       </div>
       <div className="cubeContain cubeContainR">
         <div className="cube1">
-          <p>Click para ver proyectos de nuestros clientes.</p>
+          <p>Click para ver proyectos de nuestros clientes 🔥</p>
         </div>
-        <div className="cube2"></div>
+        <div className="cube2">
+          <Slider/>
+        </div>
       </div>
     </section>
   )

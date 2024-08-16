@@ -7,7 +7,7 @@ export default function Contacto() {
 
   return(
 
-    <secton id="ContactoContain">
+    <section id="ContactoContain">
       <h3>Escribenos un mensaje!</h3>
       <form action="POST">
         <div className="dataInputContain">
@@ -17,7 +17,7 @@ export default function Contacto() {
         <textarea className="ideaClient" type="text" placeholder="Cuentanos tu proyecto, idea o negocio: "/>
       </form>
       <button>Enviar mensaje</button>
-    </secton>
+    </section>
 
   )
 }

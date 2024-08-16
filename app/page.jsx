@@ -7,13 +7,13 @@ import Servicios from "@/src/layouts/servicios/Servicios";
 
 export default function Home() {
   return (
-    <main>
+    <>
       <Nav/>
       <Inicio/>
       <Servicios/>
       <Nosotros/>
       <Contacto/>
       <Footer/>
-    </main>
+    </>
   );
 }

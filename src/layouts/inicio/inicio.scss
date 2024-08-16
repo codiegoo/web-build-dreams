@@ -15,16 +15,17 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 120%;
-  height: 20%;
+  width: 130%;
+  height: 220%;
   transform: rotate(-45deg);
+  overflow: hidden;
 }
 
 .star {
   $star-count: 30;
   --star-color: white;
-  --star-tail-length: 6em;
-  --star-tail-height: 1.5px;
+  --star-tail-length: 7em;
+  --star-tail-height: 2px;
   --star-width: calc(var(--star-tail-length) / 6);
   --fall-duration: 9s;
   --tail-fade-duration: var(--fall-duration);
