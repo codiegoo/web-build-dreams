@@ -1,0 +1,77 @@
+
+.projectsContain
+  position: fixed
+  width: 100%
+  height: 100vh
+  background: #4d4d4d93
+  backdrop-filter: blur(16px)
+  display: flex
+  justify-content: center
+  top: 0
+  left: 0
+  z-index: 500
+  overflow: hidden
+  &:hover
+    cursor: default
+  .projectsInner
+    width: 85%
+    height: 80vh
+    background: #fff
+    margin-top: 6%
+    border-radius: 1rem
+    position: relative
+    padding: 1rem
+    text-align: center
+    .titleProjectCard
+      font-size: 3rem
+      font-family: var(--font-inter)
+      color: #000 !important
+    .cardsProjectContain
+      width: 100%
+      display: flex
+      flex-direction: row
+      justify-content: space-between
+      .cardInner
+        width: 30.5%
+        height: 56.5vh
+        background: #8353ff
+        padding: 1rem
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        border-radius: .5rem
+        .cardTitle
+          font-size: 2rem
+          margin: 1rem 0rem
+          font-family: var(--font-inter)
+        .imageContain
+          p
+            font-size: 1.5rem
+        .linkToProject
+          width: 80%
+          background: #000
+          border: none
+          margin: 0 auto
+          color: #fff
+          padding: 1rem
+          border-radius: .5rem
+          font-weight: bold
+          font-size: 1.5rem
+        .linkToProject:hover
+          cursor: pointer
+          background: #fff
+          color: #000
+    .closeBtn
+      width: 2.5rem
+      height: 2.5rem
+      position: absolute
+      top: 1.5%
+      right: 1.5%
+      background: #8353ff
+      color: #fff
+      font-weight: bold
+      border: none
+      border-radius: 50%
+    .closeBtn:hover
+      background: #000
+      cursor: pointer

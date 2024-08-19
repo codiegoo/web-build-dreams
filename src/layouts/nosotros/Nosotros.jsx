@@ -1,10 +1,19 @@
 
+'use client'
 import Slider from '@/src/components/Slider/Slider'
 import './nosotros.sass'
+import { useState } from 'react'
+import Projects from '@/src/components/Projects/Projects'
 
 
 export default function Nosotros() {
 
+  const [ showProjects, setShowProjects ] = useState(false)
+
+  const handleClick = (event) => {
+    event.preventDefault()
+    setShowProjects(true)
+  }
 
   return(
 
@@ -23,9 +32,10 @@ export default function Nosotros() {
         </div>
       </div>
       <div className="cubeContain cubeContainR">
-        <div className="cube1">
+        <div className="cube1" onClick={handleClick}>
           <p>Click para ver proyectos de nuestros clientes 🔥</p>
         </div>
+        {showProjects && <Projects setShowProjects={setShowProjects}/>}
         <div className="cube2">
           <Slider/>
         </div>

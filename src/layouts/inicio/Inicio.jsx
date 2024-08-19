@@ -1,6 +1,5 @@
 import Image from "next/image";
 import "./inicio.sass";
-import "./inicio.scss"
 
 export default function Inicio() {
 
@@ -20,5 +19,9 @@ export default function Inicio() {
         <Image src="/images/cohete.png" width={600} height={600} alt="Imagen animada" />
       </div>
     </section>
-  );
+  )
 }
+
+
+
+
