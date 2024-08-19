@@ -1,5 +1,6 @@
 import Image from "next/image";
 import "./inicio.sass";
+import './inicio.scss'
 
 export default function Inicio() {
 

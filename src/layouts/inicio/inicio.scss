@@ -1,8 +1,3 @@
-@mixin sp-layout {
-  @media screen and (max-width: 1920px) {
-    @content;
-  }
-}
 
 
 @function random_range($min, $max) {
@@ -42,10 +37,6 @@
   transform: translate3d(150em, 0, 0);
   animation: fall var(--fall-duration) var(--fall-delay) linear infinite, tail-fade var(--tail-fade-duration) var(--fall-delay) ease-out infinite;
   
-  @include sp-layout {
-    // For mobile performance, tail-fade animation will be removed QAQ
-    animation: fall var(--fall-duration) var(--fall-delay) linear infinite;
-  }
 
   @for $i from 1 through $star-count {
     &:nth-child(#{$i}) {

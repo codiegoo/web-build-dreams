@@ -12,12 +12,12 @@ export default function ExpressDetails({setShowExpress}) {
     <div className="detailsContain" >
       <div className="detailsInner">
         <h4 className="title">Express</h4>
-        <p>Ideal para presentaciones de productos, pequeños negocios, servicios profesionales como pediatras, nutriologos, dentistas</p>
+        <p>Ideal para lanzamientos de nuevos productos, pequeños negocios, servicios profesionales como pediatras, nutriologos, fisioterapeutas, dentistas, abogados, etc.</p>
         <ul>
           <li>✅ Dominio y hosting.</li>
-          <li>✅ Paginia de inicio y 4 secciones.</li>
+          <li>✅ Paginia de inicio y hasta 4 secciones.</li>
           <li>✅ Coneccion con redes sociales.</li>
-          <li>✅ Diseño tipo landing page.</li>
+          <li>✅ Diseño tipo landing page, profesional y creativo.</li>
           <li>✅ Diseño adaptable a dispositivos mobiles.</li>
           <li>✅ Diseño escalable largo plazo.</li>
           <li>✅ Optimizacion CEO y google analytics.</li>
