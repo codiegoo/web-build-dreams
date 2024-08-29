@@ -14,10 +14,10 @@ export default function Inicio() {
       <div className="textContain">
         <p className="texto1">Despierta tu</p>
         <p className="texto2">vision digital</p>
-        <button>Conocenos 🚀</button>
+        <button href="#serviciosContain">Conocenos 🚀</button>
       </div>
       <div className="imageContain">
-        <Image src="/images/cohete.png" width={600} height={600} alt="Imagen animada" />
+        <Image src="/images/cohete.png" width={500} height={500} alt="Imagen animada" />
       </div>
     </section>
   )

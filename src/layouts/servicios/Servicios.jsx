@@ -38,7 +38,7 @@ export default function Servicios() {
           <h4 className="cardServiceText">Express</h4>
           <div className="textCardContain">
             <p>Una pagina web <span>economica</span> y de <span>rapido desarrollo</span> </p>
-            <p>Ideal para <span>lanzamiento de nuevos productos, pequeños negocios locales y promoción de servicios profesionales como abogados, dentistas, médicos, entre otros</span>.</p>
+            <p>Ideal para <span>presentacion de un producto, pequeños negocios locales y promoción de servicios profesionales como abogados, dentistas, médicos, entre otros</span>.</p>
             <p>Nivel de inversion: <span>Bajo</span></p>
           </div>
           <button className="detailBtn" onClick={handleClickExpress}>Detalles</button>
