@@ -15,7 +15,7 @@ export default function Nav() {
 
   return(
     <nav>
-      <Image width={200} height={50} src="/images/logo.jpeg"/>
+      <Image width={150} height={40} src="/images/logo.jpeg"/>
       <ul>
         <li><Link href="#InicioContain" className={activeLink === "#InicioContain" ? "button" : ""}
             onClick={() => handleLinkClick("#InicioContain")}>Inicio</Link></li>

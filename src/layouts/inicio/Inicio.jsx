@@ -12,8 +12,8 @@ export default function Inicio() {
         ))}
       </div>
       <div className="textContain">
-        <p className="texto1">Despierta tu</p>
-        <p className="texto2">vision digital</p>
+        <p className="texto1">Despierta <span>tu</span></p>
+        <p className="texto2"><span>vision</span> digital</p>
         <button href="#serviciosContain">Conocenos 🚀</button>
       </div>
       <div className="imageContain">
