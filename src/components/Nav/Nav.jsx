@@ -2,16 +2,18 @@
 import Image from "next/image";
 import Link from "next/link";
 import './nav.sass'
-import { useState } from "react"
+import { useState, useEffect } from "react"
 
 
 export default function Nav() {
+
 
   const [ activeLink, setActiveLink ] = useState("#InicioContain")
 
   const handleLinkClick = (href) => {
     setActiveLink(href)
   }
+  
 
   return(
     <nav>
