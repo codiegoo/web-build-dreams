@@ -32,7 +32,7 @@ export default function Nav() {
 
   return (
     <nav className="nav">
-      <Image width={150} height={40} src="/images/logo.jpeg" alt="Logo" />
+      <Image width={150} height={40} src="/images/logo.webp" alt="Logo" />
       {isSmallScreen && (
         <NavBurger
           activeLink={activeLink}

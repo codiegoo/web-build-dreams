@@ -2,10 +2,10 @@
 import { useState, useEffect } from 'react';
 
 const images = [
-  '/images/devteam.jpg',
-  '/images/devteam1.jpg',
-  '/images/devteam2.jpg',
-  '/images/devteam3.jpg',
+  '/images/devteam.webp',
+  '/images/devteam1.webp',
+  '/images/devteam2.webp',
+  '/images/devteam3.webp',
 ];
 
 export default function Slider() {

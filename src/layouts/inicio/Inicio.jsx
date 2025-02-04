@@ -17,7 +17,7 @@ export default function Inicio() {
         <button href="#serviciosContain">Conocenos 🚀</button>
       </div>
       <div className="imageContain">
-        <Image src="/images/cohete.png" width={500} height={500} alt="Imagen animada" />
+        <Image src="/images/cohete.webp" width={500} height={500} alt="Imagen animada" />
       </div>
     </section>
   )
